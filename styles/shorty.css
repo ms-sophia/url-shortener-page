@@ -1,0 +1,44 @@
+/* *large screen */
+@media(max-width:1400px){
+    html{
+        font-size: 20px;
+        font-family: 'SUSE',sans-serif;
+    }
+}
+
+/* * Tablet screen */
+@media(max-width:768px){
+    html{
+        font-size: 15px;
+        font-family: 'SUSE',sans-serif;
+
+    }
+}
+
+/* * Mobile screen */
+@media(max-width:450px){
+    html{
+        font-size: 10px;
+        font-family: 'SUSE',sans-serif;
+
+    }
+}
+
+.page{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 15px 1ft 15px;
+}
+
+.nav-header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-bar{
+    font-size: 1em;
+    
+}
